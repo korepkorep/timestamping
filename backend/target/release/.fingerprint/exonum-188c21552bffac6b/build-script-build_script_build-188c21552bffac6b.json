@@ -1,0 +1,1 @@
+{"rustc":17859320367814235581,"features":"[\"default\", \"exonum_sodiumoxide\", \"sodiumoxide-crypto\"]","target":13123923088509177768,"profile":3515853926593532548,"path":9536313526577548488,"deps":[],"local":[{"MtimeBased":[[1531692235,5150804],".fingerprint/exonum-188c21552bffac6b/dep-build-script-build_script_build-188c21552bffac6b"]}],"rustflags":[],"edition":"Edition2015"}

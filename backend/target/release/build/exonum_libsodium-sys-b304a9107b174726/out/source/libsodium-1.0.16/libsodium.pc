@@ -1,0 +1,11 @@
+prefix=/home/seryoga/exonum/examples/timestamping/backend/target/release/build/exonum_libsodium-sys-b304a9107b174726/out/installed
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.16
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Cflags: -I${includedir}

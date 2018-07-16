@@ -1,0 +1,51 @@
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :    317 89.5%,  0.0%   0.0%  0.0%
+    TyArray           :      0  0.0%,  0.0%   0.0%  0.0%
+    TySlice           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyRawPtr          :      4  1.1%,  0.0%   0.0%  0.0%
+    TyRef             :     10  2.8%,  0.0%   0.0%  0.0%
+    TyFnDef           :      1  0.3%,  0.0%   0.0%  0.0%
+    TyFnPtr           :      1  0.3%,  0.0%   0.0%  0.0%
+    TyGenerator       :      0  0.0%,  0.0%   0.0%  0.0%
+    TyGeneratorWitness:      0  0.0%,  0.0%   0.0%  0.0%
+    TyDynamic         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyClosure         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyTuple           :      1  0.3%,  0.0%   0.0%  0.0%
+    TyParam           :     20  5.6%,  0.0%   0.0%  0.0%
+    TyInfer           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyProjection      :      0  0.0%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+    TyForeign         :      0  0.0%,  0.0%   0.0%  0.0%
+                  total    354         0.0%   0.0%  0.0%
+Substs interner: #36
+Region interner: #30
+Stability interner: #0
+Interpret interner: #0
+Layout interner: #0
+Post-trans
+Ty interner             total           ty region  both
+    TyAdt             :    325 74.4%,  0.0%   0.0%  0.0%
+    TyArray           :      2  0.5%,  0.0%   0.0%  0.0%
+    TySlice           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     11  2.5%,  0.0%   0.0%  0.0%
+    TyRef             :     35  8.0%,  0.0%   0.0%  0.0%
+    TyFnDef           :     17  3.9%,  0.0%   0.0%  0.0%
+    TyFnPtr           :      7  1.6%,  0.0%   0.0%  0.0%
+    TyGenerator       :      0  0.0%,  0.0%   0.0%  0.0%
+    TyGeneratorWitness:      0  0.0%,  0.0%   0.0%  0.0%
+    TyDynamic         :      5  1.1%,  0.0%   0.0%  0.0%
+    TyClosure         :      3  0.7%,  0.0%   0.0%  0.0%
+    TyTuple           :      2  0.5%,  0.0%   0.0%  0.0%
+    TyParam           :     28  6.4%,  0.0%   0.0%  0.0%
+    TyInfer           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyProjection      :      2  0.5%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+    TyForeign         :      0  0.0%,  0.0%   0.0%  0.0%
+                  total    437         0.0%   0.0%  0.0%
+Substs interner: #72
+Region interner: #42
+Stability interner: #0
+Interpret interner: #13
+Layout interner: #19
+cargo:rustc-cfg=has_i128

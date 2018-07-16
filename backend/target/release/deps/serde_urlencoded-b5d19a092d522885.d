@@ -1,0 +1,11 @@
+/home/darya/Documents/exonum/examples/timestamping/backend/target/release/deps/libserde_urlencoded-b5d19a092d522885.rlib: /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/lib.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/de.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/mod.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/key.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/pair.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/part.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/value.rs
+
+/home/darya/Documents/exonum/examples/timestamping/backend/target/release/deps/serde_urlencoded-b5d19a092d522885.d: /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/lib.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/de.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/mod.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/key.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/pair.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/part.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/value.rs
+
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/lib.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/de.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/mod.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/key.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/pair.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/part.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.2/src/ser/value.rs:

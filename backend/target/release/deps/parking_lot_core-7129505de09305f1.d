@@ -1,0 +1,10 @@
+/home/darya/Documents/exonum/examples/timestamping/backend/target/release/deps/libparking_lot_core-7129505de09305f1.rlib: /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs
+
+/home/darya/Documents/exonum/examples/timestamping/backend/target/release/deps/parking_lot_core-7129505de09305f1.d: /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs /home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs
+
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs:
+/home/darya/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs:

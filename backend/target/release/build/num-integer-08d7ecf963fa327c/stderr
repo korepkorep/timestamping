@@ -1,0 +1,176 @@
+ INFO 2018-07-15T22:04:32Z: jobserver::imp: using env fds 3 and 12
+ INFO 2018-07-15T22:04:32Z: rustc_driver: codegen backend candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/codegen-backends
+ INFO 2018-07-15T22:04:32Z: rustc_driver: probing /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/codegen-backends for a codegen backend
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate std as std`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-2e0e6fd5a64772ec.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_unicode-63cf4304e9ab0981.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-2e0e6fd5a64772ec.so
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-2e0e6fd5a64772ec.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libstd-2e0e6fd5a64772ec.rlib" => Duration { secs: 0, nanos: 183663 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_unicode-63cf4304e9ab0981.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libstd_unicode-63cf4304e9ab0981.rlib" => Duration { secs: 0, nanos: 43213 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: Rejecting via crate name
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: metadata mismatch
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate std as std`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-c03be6943b237af4.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-c03be6943b237af4.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libcore-c03be6943b237af4.rlib" => Duration { secs: 0, nanos: 134910 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-7d0cd09e2c099c63.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-7d0cd09e2c099c63.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libcompiler_builtins-7d0cd09e2c099c63.rlib" => Duration { secs: 0, nanos: 164955 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate alloc hash: `5184f4fa2c87f835` extra filename: `-abc00040df319771`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate alloc as alloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-abc00040df319771.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-abc00040df319771.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "liballoc-abc00040df319771.rlib" => Duration { secs: 0, nanos: 93034 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate alloc as alloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate alloc_system hash: `7a70df28ae5ce6c3` extra filename: `-b7ac4cdefbcbe74e`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate alloc_system as alloc_system`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_system-b7ac4cdefbcbe74e.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_system-b7ac4cdefbcbe74e.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "liballoc_system-b7ac4cdefbcbe74e.rlib" => Duration { secs: 0, nanos: 54832 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate alloc_system as alloc_system`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate libc hash: `fb97b8e8c331f065` extra filename: `-2acd14cf338f9037`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-2acd14cf338f9037.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-2acd14cf338f9037.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "liblibc-2acd14cf338f9037.rlib" => Duration { secs: 0, nanos: 65297 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate libc hash: `fb97b8e8c331f065` extra filename: `-2acd14cf338f9037`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate unwind hash: `3fec89e45492b583` extra filename: `-937988d834c61738`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate unwind as unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-937988d834c61738.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-937988d834c61738.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libunwind-937988d834c61738.rlib" => Duration { secs: 0, nanos: 62579 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate unwind as unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate libc hash: `fb97b8e8c331f065` extra filename: `-2acd14cf338f9037`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate alloc_jemalloc hash: `3e9fce05c4bf31e5` extra filename: `-095fc2295ae9ef1b`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate alloc_jemalloc as alloc_jemalloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_jemalloc-095fc2295ae9ef1b.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_jemalloc-095fc2295ae9ef1b.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "liballoc_jemalloc-095fc2295ae9ef1b.rlib" => Duration { secs: 0, nanos: 185711 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate alloc_jemalloc as alloc_jemalloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate libc hash: `fb97b8e8c331f065` extra filename: `-2acd14cf338f9037`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate panic_unwind hash: `376f1801255ba526` extra filename: `-731e169e757c346a`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate panic_unwind as panic_unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: falling back to a load
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: lib candidate: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-731e169e757c346a.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: rlib reading metadata from: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-731e169e757c346a.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::locator: reading "libpanic_unwind-731e169e757c346a.rlib" => Duration { secs: 0, nanos: 61025 }
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: register crate `extern crate panic_unwind as panic_unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate core hash: `ed31c38c1a60e6f9` extra filename: `-c03be6943b237af4`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate core as core`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate compiler_builtins hash: `6bd92a903b271497` extra filename: `-7d0cd09e2c099c63`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate compiler_builtins as compiler_builtins`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate alloc hash: `5184f4fa2c87f835` extra filename: `-abc00040df319771`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate alloc as alloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate libc hash: `fb97b8e8c331f065` extra filename: `-2acd14cf338f9037`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate libc as libc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving dep crate unwind hash: `3fec89e45492b583` extra filename: `-937988d834c61738`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate unwind as unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate alloc_jemalloc as alloc_jemalloc`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: injecting a dep from 1 to 9
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: panic runtime not found -- loading panic_unwind
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolving crate `extern crate panic_unwind as panic_unwind`
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: injecting a dep from 1 to 9
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader: resolved crates:
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: std
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 1
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 08a5bd1ca58a28ee
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   dylib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-2e0e6fd5a64772ec.so
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-2e0e6fd5a64772ec.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: core
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 2
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: ed31c38c1a60e6f9
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-c03be6943b237af4.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: compiler_builtins
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 3
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 6bd92a903b271497
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-7d0cd09e2c099c63.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: alloc
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 4
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 5184f4fa2c87f835
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-abc00040df319771.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: alloc_system
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 5
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 7a70df28ae5ce6c3
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_system-b7ac4cdefbcbe74e.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: libc
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 6
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: fb97b8e8c331f065
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-2acd14cf338f9037.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: unwind
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 7
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 3fec89e45492b583
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Explicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-937988d834c61738.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: alloc_jemalloc
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 8
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 3e9fce05c4bf31e5
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Implicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc_jemalloc-095fc2295ae9ef1b.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   name: panic_unwind
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   cnum: 9
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   hash: 376f1801255ba526
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:   reqd: Implicit
+ INFO 2018-07-15T22:04:33Z: rustc_metadata::creader:    rlib: /usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-731e169e757c346a.rlib
+ INFO 2018-07-15T22:04:33Z: rustc_mir::build: fn_id DefId(0/0:3 ~ rust_out[317d]::main[0]) has attrs Borrowed([])
+ INFO 2018-07-15T22:04:33Z: rustc_trans_utils::link: LinkMeta { crate_hash: Svh { hash: 9133926357681287269 } }
+ INFO 2018-07-15T22:04:33Z: rustc::traits::trans: Cache miss: Binder(<[closure@DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]) 0:fn()] as std::ops::Fn<()>>) => VtableClosure(closure_def_id=DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]), substs=ClosureSubsts { substs: Slice([(), i8, extern "rust-call" fn(()) -> i32, fn()]) }, nested=[()])
+ INFO 2018-07-15T22:04:33Z: rustc::traits::trans: Cache miss: Binder(<[closure@DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]) 0:fn()] as std::ops::FnMut<()>>) => VtableClosure(closure_def_id=DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]), substs=ClosureSubsts { substs: Slice([(), i8, extern "rust-call" fn(()) -> i32, fn()]) }, nested=[()])
+ INFO 2018-07-15T22:04:33Z: rustc::traits::trans: Cache miss: Binder(<[closure@DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]) 0:fn()] as std::ops::FnOnce<()>>) => VtableClosure(closure_def_id=DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]), substs=ClosureSubsts { substs: Slice([(), i8, extern "rust-call" fn(()) -> i32, fn()]) }, nested=[()])
+ INFO 2018-07-15T22:04:33Z: rustc::traits::trans: Cache miss: Binder(<() as std::process::Termination>) => VtableImpl(impl_def_id=DefId(1/0:3168 ~ std[539e]::process[0]::{{impl}}[37]), substs=Slice([]), nested=[])
+ INFO 2018-07-15T22:04:33Z: rustc::traits::trans: Cache miss: Binder(<std::process::ExitCode as std::process::Termination>) => VtableImpl(impl_def_id=DefId(1/0:3176 ~ std[539e]::process[0]::{{impl}}[41]), substs=Slice([]), nested=[])
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(std::rt::lang_start::<()>)
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(std::rt::lang_start::<(), i8, extern "rust-call" fn(()) -> i32, fn()>::{{closure}})
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(std::sys::unix::process::process_common::ExitCode::as_i32)
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(<[closure@DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]) 0:fn()] as std::ops::FnOnce<()>>::call_once - shim)
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(std::intrinsics::drop_in_place::<[closure@DefId(1/1:1797 ~ std[539e]::rt[0]::lang_start[0]::{{closure}}[0]) 0:fn()]> - shim(None))
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(<() as std::process::Termination>::report)
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(<std::process::ExitCode as std::process::Termination>::report)
+ INFO 2018-07-15T22:04:33Z: rustc_trans::base: trans_instance(main)
